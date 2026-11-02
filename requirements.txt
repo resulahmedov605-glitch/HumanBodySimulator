@@ -1,0 +1,5 @@
+# Qt 6.10+ causes a Cocoa paint/render feedback loop with VTK's native widget.
+# Keep the tested Qt 6.9 series until the upstream integration is resolved.
+# Essentials includes Qt Core, Gui, and Widgets, which are all this app uses.
+PySide6-Essentials==6.9.3
+vtk>=9.4,<10
